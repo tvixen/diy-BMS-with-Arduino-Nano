@@ -1,3 +1,5 @@
+11/7-2018
+
 # diyBMS with Arduino Nano
 Do it yourself battery management system to Lithium ion battery packs/cells
 Inspired by Stuart Pittaway, and therefore the credit goes to him.
@@ -6,7 +8,7 @@ I was building a powerwall, and for that I needed a sort of batteri management. 
 Stuart's project and thourght "This could work". But I was in need of a display and a precise 16bit ADC, so I found some cheap alternatives and added them to the circuit. A new PCB was now under construction.
 Then I ordered the parts, and for my big surprise there were no power supply chips or ATtiny85 chips on the marked. So I decided to change the design and use what I had in the drawer. A handful of Arduino Nano.
 So therefore this project is designed around the Arduino Nano with a boot sector from the Optiboot project. (no big deal of burning an ordinary Nano with Optiboot) 
-The features are also a little different from the original project, as I’m not using the ESP8266 with Wifi, so there will be no transmitting data to a web interface.
+The features are also a little different from the original project, as Iâ€™m not using the ESP8266 with Wifi, so there will be no transmitting data to a web interface.
 Instead the slave modules can show the value of the battery pack (very precise), and the module number itself. The Master will show the status of all the modules, and also send balance commands 
 to the module who is sticking out from rest of the packs/cells. + Every module will check if the voltage is over 4.200 volts and balance itself if needed. 
 
@@ -27,10 +29,13 @@ to the module who is sticking out from rest of the packs/cells. + Every module w
 
 # The code
 
-* Try to use as much origianal code as possible
+* Try to use as much of Stuart's origianal code as possible
 * keep it short and simple
 * Try not to do inline stuff, as this can be difficult to convert to other platforms/chips
 
 
+# Update 11/7-2018
+Feel free to add comments or copy the whole project. It will be updated continuously.....
+Next update will be the code for the Master and Slave.
 
 
