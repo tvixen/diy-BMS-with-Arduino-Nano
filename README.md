@@ -37,5 +37,5 @@ to the module who is sticking out from rest of the packs/cells. + Every module w
 # Update 11/7-2018
 Feel free to add comments or copy the whole project. It will be updated continuously.....
 Next update will be the code for the Master and Slave.
-
+Hardware drawings was updated to 3.0.4
 
