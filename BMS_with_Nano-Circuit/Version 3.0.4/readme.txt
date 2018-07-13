@@ -1,2 +1,1 @@
-The ATTiny85 is now removed
-Corrected the text angle for the display
+1. Corrected the text angle for the new display
