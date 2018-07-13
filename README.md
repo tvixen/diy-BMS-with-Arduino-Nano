@@ -40,6 +40,6 @@ Next update will be the code for the Master and Slave.
 Hardware drawings was updated to 3.0.4
 # Update 13/7-2018
 Arduino code for Master is uploaded. It's purly working as master, and without any debug information. But it should be plug'n play.
-
+Arduino code for Slave is uploaded. No really debug information in code.
 
 
