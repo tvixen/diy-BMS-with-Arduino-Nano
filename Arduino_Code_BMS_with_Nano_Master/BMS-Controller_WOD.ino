@@ -182,9 +182,10 @@ uint16_t cell_read_board_temp(uint8_t cell_id)
 void setup() 
 {
   wdt_disable();                  // not yet
+  Wire.begin(); //SDA/SCL         // now for Nano
   Wire.setTimeout(1000);          //1000ms timeout
   Wire.setClock(100000);          //100khz on the bus
-  Wire.begin(); //SDA/SCL         // now for Nano
+  
   sei();    
   BusInit();                      // Init the modules
   wdt_enable(WDTO_4S);            // start watchdog
@@ -270,7 +271,7 @@ void SortByVolt()
     { 
       cell_id=SortedOnVolt[2][1]; //The cell with the higest value
 
-      //Make a cooldown periode for 30 sec
+      //Make a cooldown periode for 30 sec -> BYPASS_TIME
       if (Counter_for_Bypass==BYPASS_TIME)
         {
           for (byte k=0; k<3; k++)
