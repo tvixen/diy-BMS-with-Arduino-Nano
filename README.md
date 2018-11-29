@@ -43,4 +43,5 @@ Arduino code for Master is uploaded. It's purly working as master, and without a
 Arduino code for Slave is uploaded. No really debug information in code.
 # Update 30/11-2018
 Final slave module is ready and running. Software has been updated on slaves and master. Big packs of 100 cells, has been added. 
-
+Pictures:
+https://github.com/tvixen/diy-BMS-with-Arduino-Nano/tree/master/BMS_with_Nano-Circuit/Version%203.0.5
