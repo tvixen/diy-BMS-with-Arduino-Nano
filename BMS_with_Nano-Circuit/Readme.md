@@ -7,9 +7,5 @@ Download the .zip file for the PCB files version 3.0.5.zip
 Pictures for this version:
 
 
-![Figure what](https://github.com/tvixen/diy-BMS-with-Arduino-Nano/blob/master/BMS_with_Nano-Circuit/Test board for solar charger.JPG?raw=true "Figure")
-
-
-
-![Figure what](https://github.com/tvixen/diy-BMS-with-Arduino-Nano/tree/master/BMS_with_Nano-Circuit/1.jpg?raw=true "Figure")
+![Figure what](https://github.com/tvixen/diy-BMS-with-Arduino-Nano/blob/master/BMS_with_Nano-Circuit/DSC_0835.JPG1.jpg?raw=true "Figure")
 
