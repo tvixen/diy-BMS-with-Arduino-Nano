@@ -20,12 +20,9 @@ Feel free to add comments or copy the whole project. It will be updated continuo
 Next update will be the code for the Master and Slave.
 Hardware drawings was updated to 3.0.4
 
+-------------------------------------------------------------------------------------------------------------------------------
 
-
-
-11/7-2018
-
-# diyBMS with Arduino Nano
+# Project "diyBMS with Arduino Nano" (11/7-2018)
 Do it yourself battery management system to Lithium ion battery packs/cells
 Inspired by Stuart Pittaway, and therefore the credit goes to him.
 
