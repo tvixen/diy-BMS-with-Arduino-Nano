@@ -10,5 +10,6 @@ Pictures for this version:
 ![Figure what](https://github.com/tvixen/diy-BMS-with-Arduino-Nano/blob/master/BMS_with_Nano-Circuit/Test board for solar charger.JPG?raw=true "Figure")
 
 
-![Figure what](https://github.com/tvixen/230V-Inverter/blob/master/230V%20Inverter/doc/1.jpg?raw=true "Figure")
+
+![Figure what](https://github.com/tvixen/diy-BMS-with-Arduino-Nano/tree/master/BMS_with_Nano-Circuit/1.jpg?raw=true "Figure")
 
