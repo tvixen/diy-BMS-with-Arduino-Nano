@@ -1,3 +1,28 @@
+## Update 12/3-2019
+
+New PCB version 3.0.8 added. Including gerber files for PCB in .zip file.
+
+
+## Update 30/11-2018
+Final slave module is ready and running. Software has been updated on slaves and master. Big packs of 100 cells, has been added. 
+Pictures:
+![Figure what](https://github.com/tvixen/diy-BMS-with-Arduino-Nano/blob/master/BMS_with_Nano-Circuit/Version%203.0.8/DSC_0835.JPG?raw=true "Figure")
+
+## Update 13/7-2018
+
+Arduino code for Master is uploaded. It's purly working as master, and without any debug information. But it should be plug'n play.
+Arduino code for Slave is uploaded. No really debug information in code.
+
+
+## Update 11/7-2018
+
+Feel free to add comments or copy the whole project. It will be updated continuously.....
+Next update will be the code for the Master and Slave.
+Hardware drawings was updated to 3.0.4
+
+
+
+
 11/7-2018
 
 # diyBMS with Arduino Nano
@@ -11,6 +36,9 @@ So therefore this project is designed around the Arduino Nano with a boot sector
 The features are also a little different from the original project, as I’m not using the ESP8266 with Wifi, so there will be no transmitting data to a web interface.
 Instead the slave modules can show the value of the battery pack (very precise), and the module number itself. The Master will show the status of all the modules, and also send balance commands 
 to the module who is sticking out from rest of the packs/cells. + Every module will check if the voltage is over 4.200 volts and balance itself if needed. 
+
+
+
 
 # The design
 
@@ -32,16 +60,3 @@ to the module who is sticking out from rest of the packs/cells. + Every module w
 * Try to use as much of Stuart's origianal code as possible
 * keep it short and simple
 * Try not to do inline stuff, as this can be difficult to convert to other platforms/chips
-
-
-# Update 11/7-2018
-Feel free to add comments or copy the whole project. It will be updated continuously.....
-Next update will be the code for the Master and Slave.
-Hardware drawings was updated to 3.0.4
-# Update 13/7-2018
-Arduino code for Master is uploaded. It's purly working as master, and without any debug information. But it should be plug'n play.
-Arduino code for Slave is uploaded. No really debug information in code.
-# Update 30/11-2018
-Final slave module is ready and running. Software has been updated on slaves and master. Big packs of 100 cells, has been added. 
-Pictures:
-https://github.com/tvixen/diy-BMS-with-Arduino-Nano/tree/master/BMS_with_Nano-Circuit/Version%203.0.5
