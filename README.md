@@ -46,7 +46,7 @@ to the module who is sticking out from rest of the packs/cells. + Every module w
 * Use good connection cables with low noise (twisted pairs)
 * The Master will monitoring and control the slaves on the bus.
 * The Slave will monitor itself, and discharge if the voltage is higer than 4.200 volts.
-* Every single slave will show the pack voltage and the module number.
+* Every single slave will show the pack voltage and the module number on the LED display.
 * Ensure each cell voltage is isolated from other cells and that ground voltage is isolated
 * Ensure communications between controller and node is isolated
 * Keep the coste to a minimum and use whatever theres in the drawer.
@@ -54,6 +54,6 @@ to the module who is sticking out from rest of the packs/cells. + Every module w
 
 # The code
 
-* Try to use as much of Stuart's origianal code as possible
+* I did try to use as much of Stuart's origianal code as possible, but had to add a lot of stuff 
 * keep it short and simple
 * Try not to do inline stuff, as this can be difficult to convert to other platforms/chips
